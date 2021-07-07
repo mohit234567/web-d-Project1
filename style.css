@@ -1,0 +1,118 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background: url("bg1.jpg");
+    font-family: 'Baloo Bhai', cursive;
+}
+
+.left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 33px;
+}
+
+.left img {
+    width: 136px;
+    filter: invert(100%);
+}
+
+.left div {
+    line-height: 1px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.mid {
+    display: block;
+    /* to set any element in centre we use margin 43px auto  */
+    /* has to mention width also whilem using margin property  */
+    margin: 15px auto;
+    width: 50%;
+    /* border: 2px solid green; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 32px 23px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: red;
+    text-decoration: underline;
+}
+
+.navbar li details:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.right {
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 33px;
+}
+
+.btn {
+    margin: 0px 9px;
+    background-color: black;
+    color: cornsilk;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+.btn:hover {
+    background-color: rgb(189, 178, 178);
+    color: rgb(31, 30, 30);
+}
+
+.container {
+    /* border: 2px solid white; */
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+}
+
+.form-group input {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-family: 'Baloo Bhai', cursive; */
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 54%;
+    margin: 20px auto;
+}
